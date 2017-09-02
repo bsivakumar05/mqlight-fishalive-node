@@ -10,7 +10,7 @@ applications:
   no-route: true
   health-check-type: none
   services:
-  - MQLight-sampleservice
+  - Message Hub-e4
 - name:  mql.fishalive.node.frontend
   buildpack: sdk-for-nodejs
   disk: 1024M
